@@ -2,13 +2,12 @@
 
 First Page
 
-![alt_text](https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-1/hello_world/images/IMG_1888.PNG)
+<img src="https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-1/hello_world/images/IMG_1888.PNG" alt="First Page" width="300">
 
 Second Page
 
-![alt_text](https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-1/hello_world/images/IMG_1889.PNG)
+<img src="https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-1/hello_world/images/IMG_1889.PNG" alt="Second Page" width="300">
 
 Third Page
 
-![alt_text](https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-1/hello_world/images/IMG_1890.PNG)
-
+<img src="https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-1/hello_world/images/IMG_1890.PNG" alt="Third Page" width="300">
