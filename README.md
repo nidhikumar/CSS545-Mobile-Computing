@@ -19,3 +19,9 @@ Download Page
 Downloading (Status displayed at the bottom)
 
 <img src="https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-2/assets/downloading.png" alt="Downloading" width="300">
+
+Downloaded in local 
+
+<img src="https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-2/assets/tiger_downloaded.png" alt="Downloaded Tiger image" width="300">
+
+
