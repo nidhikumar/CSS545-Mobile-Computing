@@ -1,0 +1,35 @@
+PODS:
+  - Flutter (1.0.0)
+  - image_gallery_saver (1.5.0):
+    - Flutter
+  - image_picker (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - image_gallery_saver (from `.symlinks/plugins/image_gallery_saver/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  image_gallery_saver:
+    :path: ".symlinks/plugins/image_gallery_saver/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  image_gallery_saver: 259eab68fb271cfd57d599904f7acdc7832e7ef2
+  image_picker: 541dcbb3b9cf32d87eacbd957845d8651d6c62c3
+  path_provider_foundation: 3784922295ac71e43754bd15e0653ccfd36a147c
+
+PODFILE CHECKSUM: c4c93c5f6502fe2754f48404d3594bf779584011
+
+COCOAPODS: 1.15.2
