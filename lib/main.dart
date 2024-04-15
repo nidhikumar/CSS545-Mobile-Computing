@@ -78,7 +78,13 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () => pickImage(ImageSource.camera),
             ),
             SizedBox(height: 20),
-            image != null ? Image.file(image!) : Text("No image selected"),
+            image != null
+                ? SizedBox(
+              height: 150,
+              width: 150,
+              child: Image.file(image!),
+            )
+                : Text("No image selected"),
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
@@ -94,6 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
+
 }
 
 class DownloadPage extends StatelessWidget {

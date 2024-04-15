@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		IGMKxEbrEwmM4S5YZRwB3fAgjxA=
+		UK5sYogHhKruV13ZbGDz+BlitOo=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		/OFlxiD8Ly0rQ87T8/5WkBIznuc=
+		PF1hKCnZsEOMR3AjAIau3J6xYMY=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		aAwNKwN2TLwRPO47ppQA5R5VbWs=
+		aE5m6rfNXt4I9NF3AVUjwup7/SQ=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/butterfly.jpg</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		H2Orvn5RQuYBYD3l/jPPx5CIqMM=
+		injcH7C+aKj4wP7qprDz+SqbtK0=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -195,18 +195,6 @@
 		<key>Frameworks/Flutter.framework/icudtl.dat</key>
 		<data>
 		Ubat0LvE4LUgCwHeyl0Anx2vnzk=
-		</data>
-		<key>Frameworks/image_gallery_saver.framework/Info.plist</key>
-		<data>
-		OVkCPM2w9lP+bnIbS1Y8O9YtJGs=
-		</data>
-		<key>Frameworks/image_gallery_saver.framework/_CodeSignature/CodeResources</key>
-		<data>
-		w9Iysn7wA85YAP39vL5O9NpD790=
-		</data>
-		<key>Frameworks/image_gallery_saver.framework/image_gallery_saver</key>
-		<data>
-		21roX1sH59dHcw1xr6V9cIcpzL0=
 		</data>
 		<key>Frameworks/image_picker.framework/Info.plist</key>
 		<data>
@@ -325,7 +313,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kA/JiUTx5S2LLOaIcMgu5j7ajtqXIacfG+J0O7w+wOc=
+			dz3/LuDJyYS0VpsOGVQG5DULaLb5e2+4AravIxThAxA=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -339,7 +327,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nfms6omUK8GrdUCHI4c8X5HTiV87Qnx3y8hoqkngyZI=
+			Gf3bxvw3UoMr7unlsRfg4Nn0mkl5G2OA3XSewXVGeC8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
@@ -367,7 +355,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uCUobQbXXB3a6e8kVGITlla8WooLitjYv3KAZSfiIv0=
+			PtdFTmS5K2f3wR2QQkkp3Za+4Fq2iHheofHvFdyzoQw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/butterfly.jpg</key>
@@ -409,7 +397,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PjmgCcAMsbGnQihXDmRTTdw8KjBTBmDc8q+LoIpuKCs=
+			X96bQYksBjDrcd/wKeay1+kCdHfl24MOUhzSYfWGQmc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -585,27 +573,6 @@
 			<key>hash2</key>
 			<data>
 			ZepykIMSjfzhwAcmupMrkaqvXkhza1ZE3TdHjl8odaw=
-			</data>
-		</dict>
-		<key>Frameworks/image_gallery_saver.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qg+AD7UI4TA53Px9+TaF6Ox2RjCPvSq3JzvS6TH5t8E=
-			</data>
-		</dict>
-		<key>Frameworks/image_gallery_saver.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sEek20m2i0aC5sNW/5eCfV0x/8vwBEwUSyUE0C4650c=
-			</data>
-		</dict>
-		<key>Frameworks/image_gallery_saver.framework/image_gallery_saver</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LycA8r0p745yn/oSqHG59yNlpwGWk5QsbfoX0bSSYYA=
 			</data>
 		</dict>
 		<key>Frameworks/image_picker.framework/Info.plist</key>
