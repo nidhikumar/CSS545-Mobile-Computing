@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:io';
 import 'dart:typed_data';
 
@@ -6,6 +7,7 @@ import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:http/http.dart' as http;
+import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,13 +18,25 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    return FutureBuilder(
+      future: _fetchThemeMode(),
+      builder: (context, AsyncSnapshot<bool> snapshot) {
+        final isDarkModeEnabled = snapshot.data ?? false;
+        return MaterialApp(
+          title: 'Flutter Demo',
+          theme: ThemeData(
+            primarySwatch: Colors.blue,
+            brightness: isDarkModeEnabled ? Brightness.dark : Brightness.light,
+          ),
+          home: const MyHomePage(title: 'Flutter Demo Home Page'),
+        );
+      },
     );
+  }
+
+  Future<bool> _fetchThemeMode() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getBool('isDarkModeEnabled') ?? false;
   }
 }
 
@@ -95,10 +109,27 @@ class _MyHomePageState extends State<MyHomePage> {
               },
               child: Text("Download Page"),
             ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () => _toggleDarkMode(context),
+              child: Text("Toggle Dark Mode"),
+            ),
           ],
         ),
       ),
     );
+  }
+
+  void _toggleDarkMode(BuildContext context) async {
+    final prefs = await SharedPreferences.getInstance();
+    final isDarkModeEnabled = !(prefs.getBool('isDarkModeEnabled') ?? false);
+    prefs.setBool('isDarkModeEnabled', isDarkModeEnabled);
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+      content: Text('Dark Mode ${isDarkModeEnabled ? "enabled" : "disabled"}'),
+    ));
+
+    // Rebuild the entire app with the new theme
+    runApp(MyApp());
   }
 
 }
