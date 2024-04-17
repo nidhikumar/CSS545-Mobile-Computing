@@ -6,7 +6,9 @@ Document is present in https://github.com/nidhikumar/CSS545-Mobile-Computing/blo
 
 To run the app -
 
+```
 flutter run
+```
 
 # Basic Storage
 
