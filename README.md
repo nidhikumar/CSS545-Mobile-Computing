@@ -24,4 +24,12 @@ Downloaded in local
 
 <img src="https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-2/assets/tiger_downloaded.png" alt="Downloaded Tiger image" width="300">
 
+Enabled dark mode 
+
+<img src="https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-2/assets/dark_mode_enabled.png" alt="Enabled Dark Mode" width="300">
+
+Reopened the application after restarting 
+
+<img src="https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-2/assets/dark_mode_saved.png" alt="Dark Mode saved" width="300">
+
 
