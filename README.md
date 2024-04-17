@@ -2,6 +2,12 @@
 
 A new Flutter project that contains basic logic to implement Image picker functionality in Flutter.
 
+Document is present in https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-2/Homework%202.docx
+
+To run the app -
+
+flutter run
+
 # Basic Storage
 
 Main Page
