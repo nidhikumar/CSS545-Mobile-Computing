@@ -1,16 +1,27 @@
 # homework3
 
+Document - https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-3/App%20States%20and%20Considerations.docx
+
 A new Flutter project.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+# State Management
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Main Page with form. I added one text field data.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-3/assets/1.png" alt="Main Page" width="300">
+
+Moved away from the app
+
+<img src="https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-3/assets/2.png" alt="Home page" width="300">
+
+Came back to the app. The data persists. 
+
+<img src="https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-3/assets/3.png" alt="Return page" width="300">
+
+After closing the app completely and re-opening
+
+<img src="https://github.com/nidhikumar/CSS545-Mobile-Computing/blob/homework-3/assets/4.png" alt="Restart" width="300">
